@@ -1,6 +1,9 @@
 """Check how function shift and scale."""
 import numpy as np
 import matplotlib.pyplot as plt
+import seaborn as sns
+sns.set_style('whitegrid')
+
 # % matplotlib inline
 
 
