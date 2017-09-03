@@ -1,17 +1,11 @@
 """Check how function shift and scale."""
 import numpy as np
 import matplotlib.pyplot as plt
+from utils import sigmoid
 import seaborn as sns
 sns.set_style('whitegrid')
 
 # % matplotlib inline
-
-
-# Def target function to plot
-def sigmoid(x):
-    """Return sigmoid."""
-    return 1 / (1 + np.exp(-x))
-
 
 # Set target function
 targetfunc = sigmoid
